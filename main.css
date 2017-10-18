@@ -18,11 +18,43 @@
   
 }
 
-.row1 {
+.symbol1 {
   position: absolute;
   top: 120px;
-  left: 28.4%;
+  left: 435px;
   z-index: 10;
   border: 2px solid red;
   padding: 74px;
+}
+.symbol2 {
+  position: absolute;
+  top: 24px;
+  left: 605px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 74px;
+}
+.symbol3 {
+  position: absolute;
+  top: 24px;
+  left: 780px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 74px;
+}
+.symbol4 {
+  position: absolute;
+  top: 120px;
+  left: 954px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 74px;
+}
+.set1 {
+  position: absolute;
+  top: 310px;
+  left: 400px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 100px;
 }
