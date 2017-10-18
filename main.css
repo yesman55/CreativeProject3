@@ -52,9 +52,43 @@
 }
 .set1 {
   position: absolute;
-  top: 310px;
-  left: 400px;
+  top: 316px;
+  left: 416px;
   z-index: 10;
   border: 2px solid red;
-  padding: 100px;
+  padding: 90px;
+}
+.set2 {
+  position: absolute;
+  top: 206px;
+  left: 604px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 70px;
+}
+.set3 {
+  position: absolute;
+  top: 206px;
+  left: 786px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 70px;
+}
+.set4 {
+  position: absolute;
+  top: 316px;
+  left: 940px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 90px;
+}
+.bass {
+  position: absolute;
+  top: 350px;
+  left: 670px;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 90px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
