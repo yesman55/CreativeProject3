@@ -1,0 +1,28 @@
+.bodydiv {
+  text-align: center;
+
+}
+
+.drum-set {
+  position: relative;
+}
+
+.drum-set img {
+  display: block;
+  width: 800px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
+}
+
+.row1 {
+  position: absolute;
+  top: 120px;
+  left: 28.4%;
+  z-index: 10;
+  border: 2px solid red;
+  padding: 74px;
+}
