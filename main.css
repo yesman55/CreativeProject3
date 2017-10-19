@@ -1,5 +1,6 @@
-.bodydiv {
+body {
   text-align: center;
+  background-color:#fefbd8;
 
 }
 
@@ -7,88 +8,95 @@
   position: relative;
 }
 
+h1{
+	background-color: #36486b;	
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom:0;
+	padding: 18px;
+	color:ghostwhite;
+}
 .drum-set img {
   display: block;
   width: 800px;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+  left: 50px;
+  margin-top:100px;
   
 }
 
 .cymbal1 {
   position: absolute;
-  top: 120px;
-  left: 435px;
+  top: 215px;
+  left: 117px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 74px;
+  cursor: pointer;
+
 }
 .cymbal2 {
   position: absolute;
-  top: 24px;
-  left: 605px;
+  top: 125px;
+  left: 285px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 74px;
+  cursor: pointer;
 }
 .cymbal3 {
   position: absolute;
-  top: 24px;
-  left: 780px;
+  top: 125px;
+  left: 460px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 74px;
+  cursor: pointer;
 }
 .cymbal4 {
   position: absolute;
-  top: 120px;
-  left: 954px;
+  top: 215px;
+  left: 635px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 74px;
+  cursor: pointer;
 }
 .set1 {
   position: absolute;
-  top: 316px;
-  left: 416px;
+  top: 420px;
+  left: 97px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 90px;
+  cursor: pointer;
 }
 .set2 {
   position: absolute;
-  top: 206px;
-  left: 604px;
+  top: 305px;
+  left: 290px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 70px;
+  cursor: pointer;
 }
 .set3 {
   position: absolute;
-  top: 206px;
-  left: 786px;
+  top: 305px;
+  left: 470px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 70px;
+  cursor: pointer;
 }
 .set4 {
   position: absolute;
-  top: 316px;
-  left: 940px;
+  top: 420px;
+  left: 620px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 90px;
+  cursor: pointer;
 }
 .bass1 {
   position: absolute;
-  top: 350px;
-  left: 670px;
+  top: 450px;
+  left: 350px;
   z-index: 10;
-  /* border: 2px solid red; */
   padding: 90px;
   padding-left: 100px;
   padding-right: 100px;
+  cursor: pointer;
 }
