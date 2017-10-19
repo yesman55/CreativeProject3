@@ -5,29 +5,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="lab3.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <link rel="icon" href="https://previews.123rf.com/images/miceking/miceking1510/miceking151000376/46602597-Icon-of-a-drummer-with-drum-kit-Stock-Vector.jpg">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="creative_3.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="mainCtrl">
-
-<div class="bodydiv">
-  <h1><small>The Digital Drumset</small></h1>
-  <h3></h3>
+  <h1>The Digital Drumset</h1>
+  <audio id="cymbal1audio">
+    <source src="cymbal1.WAV">
+  </audio>
+  <audio id="cymbal2audio">
+    <source src="cymbal2.mp3">
+  </audio>
+  <audio id="cymbal3audio">
+    <source src="cymbal3.WAV">
+  </audio>
+  <audio id="cymbal4audio">
+    <source src="cymbal4.WAV">
+    </audio>
+    <div class="Side_content">
+		Want to know more about Drums?
+		<a href={{More}}>Read More</a>
+    </div>
   <div class="drum-set">
     <img src="drumset.png">
-    <div class="cymbal1" ng-click="cymbol1()"></div>
-    <div class="cymbal2" ></div>
-    <div class="cymbal3" ></div>
-    <div class="cymbal4" ></div>
+    <div class="cymbal1" ng-click="cymbal1()"></div>
+    <div class="cymbal2" ng-click="cymbal2()"></div>
+    <div class="cymbal3" ng-click="cymbal3()"></div>
+    <div class="cymbal4" ng-click="cymbal4()"></div>
     <div class="set1"></div>
     <div class="set2"></div>
     <div class="set3"></div>
     <div class="set4"></div>
     <div class="bass"></div>
   </div>
-</div>
 
 </body>
 </html>
