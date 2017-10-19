@@ -18,36 +18,36 @@
   
 }
 
-.symbol1 {
+.cymbal1 {
   position: absolute;
   top: 120px;
   left: 435px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 74px;
 }
-.symbol2 {
+.cymbal2 {
   position: absolute;
   top: 24px;
   left: 605px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 74px;
 }
-.symbol3 {
+.cymbal3 {
   position: absolute;
   top: 24px;
   left: 780px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 74px;
 }
-.symbol4 {
+.cymbal4 {
   position: absolute;
   top: 120px;
   left: 954px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 74px;
 }
 .set1 {
@@ -55,7 +55,7 @@
   top: 316px;
   left: 416px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 90px;
 }
 .set2 {
@@ -63,7 +63,7 @@
   top: 206px;
   left: 604px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 70px;
 }
 .set3 {
@@ -71,7 +71,7 @@
   top: 206px;
   left: 786px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 70px;
 }
 .set4 {
@@ -79,15 +79,15 @@
   top: 316px;
   left: 940px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 90px;
 }
-.bass {
+.bass1 {
   position: absolute;
   top: 350px;
   left: 670px;
   z-index: 10;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 90px;
   padding-left: 100px;
   padding-right: 100px;
