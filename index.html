@@ -8,12 +8,16 @@
   <link rel="stylesheet" href="main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="creative_3.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="mainCtrl">
 
 <div class="bodydiv">
   <h1><small>The Digital Drumset</small></h1>
   <h3></h3>
+  <audio id="cymbal1audio">
+    <source src="cymbal1.WAV">
+  </audio>
   <div class="drum-set">
     <img src="drumset.png">
     <div class="cymbal1" ng-click="cymbal1()"></div>
