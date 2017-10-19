@@ -18,7 +18,7 @@
   
 }
 
-.symbol1 {
+.cymbal1 {
   position: absolute;
   top: 120px;
   left: 435px;
@@ -26,7 +26,7 @@
   border: 2px solid red;
   padding: 74px;
 }
-.symbol2 {
+.cymbal2 {
   position: absolute;
   top: 24px;
   left: 605px;
@@ -34,7 +34,7 @@
   border: 2px solid red;
   padding: 74px;
 }
-.symbol3 {
+.cymbal3 {
   position: absolute;
   top: 24px;
   left: 780px;
@@ -42,7 +42,7 @@
   border: 2px solid red;
   padding: 74px;
 }
-.symbol4 {
+.cymbal4 {
   position: absolute;
   top: 120px;
   left: 954px;
