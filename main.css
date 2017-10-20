@@ -1,15 +1,22 @@
 body {
   text-align: center;
-  background-color:#fefbd8;
+  background-color:black;
 
 }
 
+#crowd {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+}
 .drum-set {
   position: relative;
+  z-index: 1;
+  margin-top: 200px;
 }
 
 h1{
-	background-color: #36486b;	
+	background-color: black;	
 	font-weight: bold;
 	margin-top:0;
 	margin-bottom:0;
@@ -20,7 +27,7 @@ h1{
   display: block;
   width: 800px;
   position: absolute;
-  left: 50px;
+  left: 365px;
   margin-top:100px;
   
 }
@@ -28,7 +35,7 @@ h1{
 .cymbal1 {
   position: absolute;
   top: 215px;
-  left: 117px;
+  left: 432px;
   z-index: 10;
   padding: 74px;
   cursor: pointer;
@@ -37,7 +44,7 @@ h1{
 .cymbal2 {
   position: absolute;
   top: 125px;
-  left: 285px;
+  left: 600px;
   z-index: 10;
   padding: 74px;
   cursor: pointer;
@@ -45,7 +52,7 @@ h1{
 .cymbal3 {
   position: absolute;
   top: 125px;
-  left: 460px;
+  left: 775px;
   z-index: 10;
   padding: 74px;
   cursor: pointer;
@@ -53,7 +60,7 @@ h1{
 .cymbal4 {
   position: absolute;
   top: 215px;
-  left: 635px;
+  left: 950px;
   z-index: 10;
   padding: 74px;
   cursor: pointer;
@@ -61,7 +68,7 @@ h1{
 .set1 {
   position: absolute;
   top: 420px;
-  left: 97px;
+  left: 447px;
   z-index: 10;
   padding: 90px;
   cursor: pointer;
@@ -69,7 +76,7 @@ h1{
 .set2 {
   position: absolute;
   top: 305px;
-  left: 290px;
+  left: 605px;
   z-index: 10;
   padding: 70px;
   cursor: pointer;
@@ -77,7 +84,7 @@ h1{
 .set3 {
   position: absolute;
   top: 305px;
-  left: 470px;
+  left: 785px;
   z-index: 10;
   padding: 70px;
   cursor: pointer;
@@ -85,7 +92,7 @@ h1{
 .set4 {
   position: absolute;
   top: 420px;
-  left: 620px;
+  left: 935px;
   z-index: 10;
   padding: 90px;
   cursor: pointer;
@@ -93,10 +100,17 @@ h1{
 .bass1 {
   position: absolute;
   top: 450px;
-  left: 350px;
+  left: 665px;
   z-index: 10;
   padding: 90px;
   padding-left: 100px;
   padding-right: 100px;
   cursor: pointer;
+}
+
+footer {
+  padding-top: 700px;
+}
+footer button {
+  
 }

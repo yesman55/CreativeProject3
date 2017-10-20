@@ -1,5 +1,8 @@
 var app = angular.module('myApp', []);
 app.controller('mainCtrl', function($scope) {
+
+    $scope.More = "https://en.wikipedia.org/wiki/Drum";
+
     $scope.cymbal1 = function(){
         var audio = document.getElementById("cymbal1audio");
         audio.load();
@@ -40,4 +43,15 @@ app.controller('mainCtrl', function($scope) {
         audio.load();
         audio.play();
     };
+    $scope.displayLike = function() {
+        var clicked;
+        if (showLike == false) {
+            showLike = true;
+            return showLike;
+        }
+        else if (showLike == true) {
+            showLike = false;
+            return showLike;
+        }
+    }
 });
