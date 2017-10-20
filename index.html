@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <title>Bootstrap Theme Simply Me</title>
+  <title>The Digital Drumset</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,8 +13,7 @@
 <body ng-app="myApp" ng-controller="mainCtrl">
 
 <div class="bodydiv">
-  <h1><small>The Digital Drumset</small></h1>
-  <h3></h3>
+  <h1>The Digital Drumset</h1>
   <audio id="cymbal1audio">
     <source src="cymbal1.WAV">
   </audio>
@@ -39,6 +38,7 @@
   <audio id="bassAudio">
     <source src="bassdrum.WAV">
   </audio>
+  <img id="crowd" src="crowd.png">
   <div class="drum-set">
     <img src="drumset.png">
     <div class="cymbal1" ng-click="cymbal1()"></div>
@@ -52,6 +52,12 @@
     <div class="bass1" ng-click="bass1()"></div>
   </div>
 </div>
-
 </body>
+<footer>
+  <button type="Button" ng-click="showme1=true">Like</button>
+  <button type="Button" ng-click="showme2=true">Disike</button>
+  <br>
+  <img src="https://m.popkey.co/7fa054/kdjO8.gif" ng-show="showme1">
+  <img src="https://media.giphy.com/media/d2lcHJTG5Tscg/giphy.gif" ng-show="showme2">
+</footer>
 </html>
